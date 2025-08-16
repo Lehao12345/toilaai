@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Cá Nhân</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f9ff;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #007BFF, #00C6FF);
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+    header img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 4px solid white;
+      margin-bottom: 15px;
+    }
+    header h1 {
+      margin: 10px 0;
+      font-size: 28px;
+    }
+    header p {
+      font-size: 18px;
+      opacity: 0.9;
+    }
+    section {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    section h2 {
+      margin-top: 0;
+      color: #007BFF;
+      border-left: 4px solid #007BFF;
+      padding-left: 10px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li::before {
+      content: "✔ ";
+      color: #007BFF;
+    }
+    .contact a {
+      text-decoration: none;
+      color: #007BFF;
+      margin-right: 15px;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://via.placeholder.com/120" alt="Avatar">
+    <h1>Nguyễn Văn A</h1>
+    <p>Graphic Designer | Web Developer | Content Creator</p>
+  </header>
+
+  <section>
+    <h2>Giới thiệu</h2>
+    <p>Tôi là một sinh viên thiết kế đồ họa, yêu thích sáng tạo và công nghệ. Tôi muốn phát triển sự nghiệp trong lĩnh vực thiết kế và lập trình web.</p>
+  </section>
+
+  <section>
+    <h2>Kỹ năng</h2>
+    <ul>
+      <li>Thiết kế đồ họa (Photoshop, Illustrator)</li>
+      <li>Lập trình web (HTML, CSS, JavaScript)</li>
+      <li>Sáng tạo nội dung</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Dự án</h2>
+    <ul>
+      <li>Thiết kế logo cho startup X</li>
+      <li>Website giới thiệu sản phẩm Y</li>
+      <li>Portfolio cá nhân</li>
+    </ul>
+  </section>
+
+  <section class="contact">
+    <h2>Liên hệ</h2>
+    <p>Email: nguyenvana@example.com</p>
+    <p>
+      <a href="#">Facebook</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">GitHub</a>
+    </p>
+  </section>
+
+  <footer>
+    © 2025 Nguyễn Văn A. All rights reserved.
+  </footer>
+</body>
+</html>
